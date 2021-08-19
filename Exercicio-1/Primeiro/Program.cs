@@ -24,7 +24,7 @@ namespace PrimeiroExercicio {
             double preco1 = 2100.0;
             double preco2 = 650.50;
             double medida = 53.23567;
-            Console.WriteLine("Produtos:");
+            Console.writeline("produtos:");
             Console.WriteLine($"{produto1}, cujo preço é $ {preco1:F2}");
             Console.WriteLine($"{produto2}, cujo preço é $ {preco2:F2}");
             Console.WriteLine("");
