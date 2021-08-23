@@ -7,15 +7,16 @@ namespace Exercicio_2 {
     class Program {
         static void Main (string[] args) {
             //Exercicio 01
-
-            Console.WriteLine("Primeiro número: ");
-            int n1 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Segundo número: ");
-            int n2 = int.Parse(Console.ReadLine());
-            int soma = n1 + n2;
-
-            Console.WriteLine($"A soma dos números é igual a {soma}");
-
+            int n = 0;
+            while (n != 1) {
+                Console.WriteLine("Digite o número: ");
+                int n1 = int.Parse(Console.ReadLine());
+                int resultado = n1 % 2;
+                if (resultado == 0) {
+                    Console.WriteLine("PAR");
+                }
+                else Console.WriteLine("IMPAR");
+            }
             //Exercicio 02
 
             string[] vetorPeca = Console.ReadLine().Split(' ');
