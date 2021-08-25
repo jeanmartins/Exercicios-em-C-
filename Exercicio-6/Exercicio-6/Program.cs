@@ -30,6 +30,7 @@ namespace Exercicio_6 {
             qte = int.Parse(Console.ReadLine());
             p.RemoverProdutos(qte);
             Console.WriteLine("Dados atualizados: " + p);
+            
         }
     }
 }
