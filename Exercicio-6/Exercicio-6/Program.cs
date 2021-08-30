@@ -7,10 +7,10 @@ namespace Exercicio_6 {
 
             Produto p = new Produto("TV", 500.0, 10);
 
-            p.SetNome("TV 4K");
-            Console.WriteLine(p.GetNome());
-            Console.WriteLine(p.GetPreco());
-            Console.WriteLine(p.GetQuantidade());
+            p.Nome = "T";
+            Console.WriteLine(p.Nome);
+            Console.WriteLine(p.Preco);
+            Console.WriteLine(p.Quantidade);
         }
     }
 }

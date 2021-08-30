@@ -17,21 +17,27 @@ namespace Exercicio_6 {
             this._quantidade = quantidade;
         }
 
-        public string GetNome() {
-            return this._nome;
+
+        public string Nome {
+            get { return this._nome; }
+            set {
+                if (value != null && value.Length > 1) {
+                    this._nome = value;
+                }
+            }
         }
-        public void SetNome(string nome) {
-            if (nome != null && nome.Length > 1) {
-                this._nome = nome;
+        public double Preco {
+            get {
+                return this._preco;
             }
         }
 
-        public double GetPreco() {
-            return this._preco;
+        public int Quantidade {
+            get {
+                return this._quantidade;
+            }
         }
-        public int GetQuantidade() {
-            return this._quantidade;
-        }
+
         public double ValorTotalEmEstoque() {
             return _preco * _quantidade;
         }
