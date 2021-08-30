@@ -4,8 +4,8 @@ using System.Globalization;
 namespace Exercicio_6 {
     class Produto {
         private string _nome;
-        private double _preco;
-        private int _quantidade;
+        public double Preco { get; private set; }
+        public int Quantidade { get; private set; }
 
         public Produto() {
 
@@ -13,8 +13,8 @@ namespace Exercicio_6 {
 
         public Produto(string nome, double preco, int quantidade) {
             this._nome = nome;
-            this._preco = preco;
-            this._quantidade = quantidade;
+            this.Preco = preco;
+            this.Quantidade = quantidade;
         }
 
 
@@ -26,30 +26,19 @@ namespace Exercicio_6 {
                 }
             }
         }
-        public double Preco {
-            get {
-                return this._preco;
-            }
-        }
-
-        public int Quantidade {
-            get {
-                return this._quantidade;
-            }
-        }
-
+  
         public double ValorTotalEmEstoque() {
-            return _preco * _quantidade;
+            return Preco * Quantidade;
         }
 
         public void AdicionarProdutos(int quantidade) {
-            _quantidade += quantidade;
+            Quantidade += quantidade;
         }
         public void RemoverProdutos(int quantidade) {
-            _quantidade -= quantidade;
+            Quantidade -= quantidade;
         }
         public override string ToString() {
-            return _nome + ", $" + _preco.ToString("F2", CultureInfo.InvariantCulture) + ", " + _quantidade + " unidades, Total: $ " + ValorTotalEmEstoque().ToString("F2", CultureInfo.InvariantCulture);
+            return _nome + ", $" + Preco.ToString("F2", CultureInfo.InvariantCulture) + ", " + Quantidade + " unidades, Total: $ " + ValorTotalEmEstoque().ToString("F2", CultureInfo.InvariantCulture);
         }
     }
 }
