@@ -4,8 +4,11 @@ namespace Exercicio_16 {
     class Program {
         static void Main(string[] args) {
 
-            int result = Calculator.Sum( 2, 4,3 );
-            Console.WriteLine(result);
+            int a = 10;
+            int triple;
+            Calculator.Triple(10, out triple);
+            Console.WriteLine(a);
+            Console.WriteLine(triple);
         }
     }
 }

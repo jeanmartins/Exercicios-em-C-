@@ -11,6 +11,11 @@ namespace Exercicio_16 {
             }
             return sum;
         }
-
+        public static void Tripe(ref int x) {
+            x = x * 3;
+        }
+        public static void Triple(int origin, out int result) {
+            result = origin * 3;
+        }
     }
 }
