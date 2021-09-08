@@ -19,17 +19,11 @@ namespace Exercicio_19 {
             }
             Console.WriteLine();
 
-            for (int i = 0; i < n; i++) {
-                for (int j = 0; j < n; j++) {
-                    Console.Write(matriz[i, j] + " ");
-
-                }
-            }
 
             int count = 0;
             for (int i = 0; i < n; i++) {
-                for(int j=0; j<n; j++) {
-                    if(matriz[i,j] < 0) {
+                for (int j = 0; j < n; j++) {
+                    if (matriz[i, j] < 0) {
                         count++;
                     }
                 }
