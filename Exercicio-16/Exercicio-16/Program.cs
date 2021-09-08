@@ -6,7 +6,7 @@ namespace Exercicio_16 {
 
             int a = 10;
             int triple;
-            Calculator.Triple(10, out triple);
+            Calculator.Triple(a, out triple);
             Console.WriteLine(a);
             Console.WriteLine(triple);
         }
