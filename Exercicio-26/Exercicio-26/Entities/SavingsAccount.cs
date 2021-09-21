@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Exercicio_26.Entities
 {
-    class SavingsAccount : Account
+     class SavingsAccount : Account
     {
         public double InterestRate { get; set; }
 
@@ -18,5 +18,11 @@ namespace Exercicio_26.Entities
         {
             Balance += Balance * InterestRate;
         }
+        public sealed override void Withdraw(double amount)
+        {
+            base.Withdraw(amount);
+            Balance -= 2.0;
+        }
+
     }
 }
