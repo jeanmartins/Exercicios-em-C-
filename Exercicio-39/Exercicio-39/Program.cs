@@ -22,7 +22,7 @@ namespace Exercicio_39 {
 
             CarRental carRental = new CarRental(start, finish, new Vechicle(model));
 
-            RentalService rentalService = new RentalService(hour, day);
+            RentalService rentalService = new RentalService(hour, day, new BrazilTaxService());
             rentalService.ProcessInvoice(carRental);
             Console.WriteLine("INVOICE: ");
             Console.WriteLine(carRental.Invoice);
