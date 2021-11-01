@@ -4,13 +4,7 @@
     <projectFile>Exercicio-50/Exercicio-50.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1f8ac03-b84e-47a8-9cf2-40a205b6cf69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Exercicio-50/Extensions/StringExtension.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercicio-50/Extensions/StringExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercicio-50/te.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Exercicio-50/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Exercicio-50/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercicio-50/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Exercicio-50/Program.cs" afterDir="false" />
-    </list>
+    <list default="true" id="e1f8ac03-b84e-47a8-9cf2-40a205b6cf69" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +12,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Exercicio-50/Extensions/StringExtension.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Exercicio-50/te.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1zzvNVLOSS4f78N4HTgzMYQ0lcQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -63,6 +61,7 @@
       <updated>1635163690428</updated>
       <workItem from="1635163695703" duration="535000" />
       <workItem from="1635769549578" duration="451000" />
+      <workItem from="1635770023461" duration="659000" />
     </task>
     <servers />
   </component>
