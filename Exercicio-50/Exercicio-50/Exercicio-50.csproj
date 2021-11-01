@@ -6,4 +6,9 @@
         <RootNamespace>Exercicio_50</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Compile Remove="te.cs" />
+      <Compile Remove="Extensions\StringExtension.cs" />
+    </ItemGroup>
+
 </Project>
